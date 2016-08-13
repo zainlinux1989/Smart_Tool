@@ -1,0 +1,400 @@
+/* Main Window style setting */
+QMainWindow
+{	
+			/* white to grey linear gradient */
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(251, 251, 251, 255), stop:1 rgba(241, 241, 241, 255));
+}
+
+/* Tab Widget style setting */
+QTabWidget::pane		
+{	
+	background-color: transparent; 
+
+	border-color: rgb(77, 208, 225);		/* sky blue color */	
+	border-radius:5px;
+	border-width:2px;
+	/*border-style:solid;*/
+}
+
+/* Selected Tab Bar style setting */
+QTabBar::tab:selected
+{
+	
+	background-color: transparent; 
+
+	border-color: rgb(77, 208, 225);		/* sky blue color */	
+	color:rgb(77, 208, 225);		/* sky blue color */
+	border-radius:5px;
+	border-width:2px;
+	border-style:solid;
+	
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px 5px;
+}
+
+/* Not selected Tab Bar style setting */
+QTabBar::tab:!selected
+{	
+	background-color: transparent; 
+		
+	border-color: rgb(224, 224, 224);		/* grey color */
+	color:rgb(224, 224, 224);		/* grey color */
+	border-radius:5px;
+	border-width:1px;
+	border-style:solid;
+
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px 5px;
+}
+
+/* QLabels style setting */
+QLabel
+{
+	font-family: Cantarell;
+	font-size:12px;
+}
+
+/* QLineEdit style setting */
+QLineEdit
+{
+	min-height:22px;
+	max-height:22px;	
+	font-family: Cantarell;
+	font-size:12px;
+	background-color: rgb(224, 224, 224);		/* grey color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	border-width:2px;
+	border-style:solid;
+}
+
+/* QCheckBox  style setting*/
+QCheckBox
+{
+	min-height:22px;
+	max-height:22px;	
+	font-family: Cantarell;
+	font-size:12px;
+}
+
+/* QCheckBox Indicator  style setting */
+QCheckBox::indicator
+{
+	min-height:20px;
+	max-height:20px;	
+	min-width:20px;
+	max-width:20px;	
+
+	background-color: rgb(224, 224, 224);		/* grey color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	border-width:2px;
+	border-style:solid;
+}
+
+
+/* QCheckBox hover  style setting */
+QCheckBox:hover
+{
+	color:rgb(77, 208, 225);		/* sky blue color */
+}
+
+
+/* QCheckBox checked text  style setting */
+QCheckBox:checked
+{
+	color:rgb(77, 208, 225);		/* sky blue color */
+}
+
+/* QCheckBox checked indicator  style setting */
+QCheckBox::indicator:checked
+{
+	image: url(:/images/checked_icon.png);
+}
+
+
+
+
+/* All push button, tool button style setting */
+
+QPushButton, QToolButton
+{
+	min-height:24px;
+	max-height:24px;
+	background-color: rgb(224, 224, 224);		/* grey color */
+	border-color:  rgb(224, 224, 224);		/* grey color */
+	border-style:solid;
+	
+	font-family: Cantarell;
+	color: rgb(0, 0, 0);
+	font-size:12px;
+
+	padding: 0px 5px;
+}
+
+/* All push button hover style setting */
+QPushButton:hover
+{	
+	background-color: rgb(77, 208, 225);		/* sky blue color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	border-style:solid;
+	
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.102564 rgba(0, 0, 0, 0), stop:0.820513 rgba(255, 255, 255, 0));		/* for transparent text */ 
+	font-size:12px;
+	font-weight:bold;
+
+}
+
+/* Make selection type back button in round shape style setting */
+QPushButton#filetype_back_pushButton
+{
+	min-height:20px;
+	max-height:20px;
+
+	min-width:13px;
+	max-width:13px;
+	border-radius:5px;
+}
+
+
+/* All tool button and combo box hover style setting */
+QToolButton:hover, QComboBox:hover
+{
+	
+	background-color: rgb(77, 208, 225);		/* sky blue color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	border-style:solid;
+	
+	font-size:12px;
+	font-weight:bold;
+
+}
+
+/* All Qmessage box QPushbutton style setting */
+QMessageBox QPushButton:hover
+{
+	background-color: rgb(77, 208, 225);		/* sky blue color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	color: rgb(0, 0, 0);
+	border-style:solid;
+	
+	font-size:12px;
+
+}
+
+/* Whole computer scan icon style setting */
+QPushButton#whole_computer_scan_pushButton
+{
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	
+	border-width:2px;
+	border-color:  rgb(224, 224, 224);		/* grey color */
+
+	background-color: rgb(77, 208, 225);		/* sky blue color */
+	image: url(:/images/computer_icon.png);
+	image-position: center;
+	padding: 30px 30px;
+
+	border-radius:50px;
+}
+
+/* Whole computer scan icon hover style setting */
+QPushButton#whole_computer_scan_pushButton:hover
+{
+	min-height:110px;
+	max-height:110px;
+	min-width:110px;
+	max-width:110px;
+
+	border-width:4px;
+	border-color:  rgb(224, 224, 224);		/* grey color */
+
+	image: url(:/images/computer_icon.png);
+	image-position: center;
+	padding: 20px 20px;
+}
+
+/* Directory scan icon style setting */
+QPushButton#directory_scan_pushButton
+{
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	
+	border-width:2px;
+	border-color:  rgb(224, 224, 224);		/* grey color */
+
+	background-color: rgb(77, 208, 225);		/* sky blue color */
+
+	image: url(:/images/folder_icon.png);
+	image-position: center;
+	padding: 30px 30px;
+
+	border-radius:50px;
+}
+
+
+/* Directory scan icon hover style setting */
+QPushButton#directory_scan_pushButton:hover
+{
+	min-height:110px;
+	max-height:110px;
+	min-width:110px;
+	max-width:110px;
+
+	border-width:4px;
+	border-color:  rgb(224, 224, 224);		/* grey color */
+
+	image: url(:/images/folder_icon.png);
+	image-position: center;
+	padding: 20px 20px;
+}
+
+/* QFileDialog button hover style setting */
+QFileDialog QPushButton:hover
+{
+	background-color: rgb(77, 208, 225);		/* sky blue color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	border-style:solid;
+	
+	color: rgb(0, 0, 0);
+	font-size:12px;
+	font-weight:bold;
+	
+}
+
+
+/* Calculate checksum push button hover style setting */
+QPushButton#cal_checksum_pushButton:hover 
+{
+	image: url(:/images/calculate_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+/* Verify checksum push button hover style setting */
+QPushButton#verify_checksum_pushButton:hover 
+{
+	image: url(:/images/verify_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+/* Start scanning push button hover style setting */
+QPushButton#scan_files_pushButton:hover 
+{
+	image: url(:/images/scan_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+
+/* Stop scanning push button hover style setting */
+QPushButton#stop_scan_pushButton:hover 
+{
+	image: url(:/images/stop_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+/* Next push button hover style setting */
+QPushButton#next_pushButton:hover 
+{
+	image: url(:/images/next_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+
+/* Back push button hover style setting */
+QPushButton#back_main_find_menu_pushButton:hover 
+{
+	image: url(:/images/back_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+/* Delete files push button hover style setting */
+QPushButton#delete_file_pushButton:hover 
+{
+	image: url(:/images/delete_icon.png);
+	image-position: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* QComboBox checksum_comboBox style setting */
+QComboBox
+{	
+	min-height:24px;
+	max-height:24px;
+	background-color: rgb(224, 224, 224);		/* grey color */
+	border-color:  rgb(224, 224, 224);		/* grey color */
+	border-style:solid;
+	
+	font-family: Cantarell;
+	color: rgb(0, 0, 0);
+	font-size:12px;
+
+	padding: 0px 3px;
+}
+
+/* QCombox drop-down style setting */
+QComboBox::drop-down
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	image: url(:/images/down_icon.png);
+	padding: 3px 3px;
+}
+
+/* QTree Items  style setting */
+QTreeView::item 
+{
+	font-family: Cantarell;
+	color: rgb(0, 0, 0);
+	font-size:12px;
+}
+
+/* QTree Items hover style setting */
+QTreeView::item:hover 
+{
+	color: rgb(224, 224, 224);		/* grey color */
+}
+
+/* QTree Items checkbox indicator style setting */
+QTreeView::indicator
+{
+	background-color: rgb(224, 224, 224);		/* grey color */
+	border-color: rgb(77, 208, 225);		/* sky blue color */
+	border-width:2px;
+	border-style:solid;
+}
+
+/* QTree Items selected checkbox indicator style setting */
+QTreeView::indicator:checked 
+{
+	
+	image: url(:/images/checked_icon.png);
+	color: rgb(77, 208, 225);		/* sky blue color */
+	font-weight:bold;
+}
+ 

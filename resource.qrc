@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>stylesheet.qss</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/app_icon.png</file>
+        <file>images/back_icon.png</file>
+        <file>images/calculate_icon.png</file>
+        <file>images/checked_icon.png</file>
+        <file>images/clear_icon.png</file>
+        <file>images/computer_icon.png</file>
+        <file>images/delete_icon.png</file>
+        <file>images/down_icon.png</file>
+        <file>images/duplicate-file_icon.png</file>
+        <file>images/exit_icon.png</file>
+        <file>images/folder_icon.png</file>
+        <file>images/info_icon.png</file>
+        <file>images/next_icon.png</file>
+        <file>images/progress_degree_0.png</file>
+        <file>images/progress_degree_120.png</file>
+        <file>images/progress_degree_150.png</file>
+        <file>images/progress_degree_180.png</file>
+        <file>images/progress_degree_210.png</file>
+        <file>images/progress_degree_240.png</file>
+        <file>images/progress_degree_270.png</file>
+        <file>images/progress_degree_30.png</file>
+        <file>images/progress_degree_300.png</file>
+        <file>images/progress_degree_330.png</file>
+        <file>images/progress_degree_60.png</file>
+        <file>images/progress_degree_90.png</file>
+        <file>images/scan_icon.png</file>
+        <file>images/stop_icon.png</file>
+        <file>images/up_icon.png</file>
+        <file>images/verify_icon.png</file>
+    </qresource>
+</RCC>
