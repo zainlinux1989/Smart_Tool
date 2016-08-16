@@ -1,0 +1,18 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x14\x00S\x00m\x00a\x00r\x00t\x00_\x00T\x00o\x00o\x00l)
+
+[Project]
+VersionControlSupport=kdevgit
+
+[QMake_Builder]
+Build_Folder=/home/zain/Qt_Project/Smart Tool/Smart_Tool/build
+Build_Type=0
+Extra_Arguments=
+Install_Prefix=
+QMake_Binary=/opt/Qt5.6.1/5.6/gcc_64/bin/qmake
+
+[QMake_Builder][/home/zain/Qt_Project/Smart Tool/Smart_Tool/build]
+Build_Type=0
+Extra_Arguments=
+Install_Prefix=
+QMake_Binary=/opt/Qt5.6.1/5.6/gcc_64/bin/qmake

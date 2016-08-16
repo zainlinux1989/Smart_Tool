@@ -518,7 +518,14 @@ void AppMainWindow::on_action_Verify_triggered()
 
 void AppMainWindow::on_action_Exit_triggered()
 {
-    qApp->closeAllWindows();
+    QMessageBox::StandardButton button;
+
+    button=QMessageBox::warning(this,"","Are you sure you want to close prgram",QMessageBox::Yes|QMessageBox::No);
+
+    if(button==QMessageBox::Yes)        // is select " Yes " button
+    {
+          QApplication::quit();
+    }
 }
 
 void AppMainWindow::on_action_About_triggered()
