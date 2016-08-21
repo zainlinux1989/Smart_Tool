@@ -1,4 +1,4 @@
-Smart tool is system utitlity software to remove 
+Smart tool is system utitlity software to
   1.  Find and remove duplicate files
   2.  Verify files using various checksum
 
